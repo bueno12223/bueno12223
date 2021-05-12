@@ -1,0 +1,57 @@
+@import '../../assets/styles/roots';
+
+.header {
+    background-color: $just-white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 8px;
+    @include response-to(768px) {
+        background: none;
+    }
+    & button {
+        border: none;
+        background: none;
+    }
+    &-icon {
+        font-size: 2.5em;
+        color: $text-grey;
+        @include response-to(768px) {
+            display: none;
+        }
+    }
+    &-list {
+        text-decoration: none;
+        width: 100%;
+        list-style: none;
+        @include response-to(768px) {
+            width: fit-content;
+            color: $just-white;
+            display: flex !important;
+            gap: 5px;
+        }
+        & li {
+            height: 43px;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            color: $text-grey;
+            font-size: 2em;
+            font-weight: 400;
+            border-bottom: 1px solid $soft-grey;
+            @include response-to(768px) {
+                border-bottom: none;
+                height: 30px;
+                padding: 8px 20px;
+                font-size: 1.5em;
+                &:hover {
+                    background-color: $aqua;
+                    color: $dark-blue;
+                }
+            }
+        }
+    }
+}

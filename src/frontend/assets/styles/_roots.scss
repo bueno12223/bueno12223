@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+$aqua: #53f6c7;
+$dark-blue: #1d1b24;
+$just-white: #fff;
+$grey: #2a2830;
+$ligth-grey: #d8d5d5;
+$text-grey: #9d9d9d;
+$soft-grey: #eaeaea;
+
+// media query
+@mixin response-to($width) {
+    @media only screen and (min-width: $width) {
+        @content;
+    }
+}

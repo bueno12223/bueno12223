@@ -43,8 +43,8 @@ const setResponse = (html, manifest) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>batataBit</title>
-      <script src="https://kit.fontawesome.com/4aeb7d5cfb.js" crossorigin="anonymous"></script>    
+      <script src="https://kit.fontawesome.com/4aeb7d5cfb.js" crossorigin="anonymous"></script>
+      <title>Porfolio Yisus</title>   
       <link rel="stylesheet" href='${mainStyles}' type="text/css">
     </head>
     <body>

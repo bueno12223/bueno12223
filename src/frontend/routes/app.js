@@ -1,8 +1,11 @@
 import React from 'react';
-// import { BrowserRouter, Switch, Route } from 'react-router-dom';
-
+import { BrowserRouter, Route } from 'react-router-dom';
+import Main from '../pages/main'
+import '../assets/styles/app.scss'
 const App = () => (
-  <h1>Hola</h1>
+  <BrowserRouter>
+      <Route exact path='/' component={Main} />
+  </BrowserRouter>
 );
 
 export default App;
