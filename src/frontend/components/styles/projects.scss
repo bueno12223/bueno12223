@@ -1,0 +1,22 @@
+@import '../../assets/styles/roots';
+
+.projects{
+    &-title {
+        @extend %titles
+    }
+    &-card-container {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+        width: 90%;
+        margin: 0 auto;
+        height: 300px;
+        gap: 10px;
+    }
+    &-card {
+        height: 260px;
+        min-width: 260px;
+        background-color: blueviolet;
+    }
+
+}

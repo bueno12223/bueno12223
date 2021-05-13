@@ -14,3 +14,15 @@ $soft-grey: #eaeaea;
         @content;
     }
 }
+%titles {
+    font-size: 17vw;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: $grey;
+    @include response-to (640px) {
+        font-size: 11em;
+        justify-content: flex-end;
+        padding-right: 60px;
+    }
+}
