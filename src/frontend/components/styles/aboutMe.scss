@@ -1,0 +1,66 @@
+@import '../../assets/styles/roots';
+
+.about {
+    display: flex;
+    flex-direction: column;
+    &-title {
+        @extend %titles;
+    }
+    &-me {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 5px;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+        @include response-to(690px) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+        & h4 {
+            text-align: center;
+            & b {
+                font-size: 5em;
+                color: $aqua;
+            }
+        }  
+    }
+    &-frameworks {
+        &-title {
+            color: $just-white;
+            font-size: 4.5em;
+            line-height: 50px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -2px;
+            text-transform: none;
+            margin-left: 10vw;
+            margin-top: 20px;
+        }
+        &-list {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            list-style: none;
+            margin: 15px auto;
+            width: 90%;
+            height: auto;
+            & * {
+                width: 20vw;
+                height: 80px;
+                text-align: center;
+                font-size: 1em;
+                margin-bottom: 35px;
+                @include response-to(520px) {
+                    width: 16vw;
+                }
+            }
+        }
+        
+        
+    }
+
+}
