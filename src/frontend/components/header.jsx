@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className='header'>
             <button onClick={() => setDisplay(!display)}><i class="fas fa-bars header-icon"></i></button>
-            <img src="https://bridge236.qodeinteractive.com/wp-content/uploads/2018/05/logo.png" alt="logo" className='hero'/>
+            <img src="https://bridge236.qodeinteractive.com/wp-content/uploads/2018/05/logo.png" alt="logo" className='header-logo'/>
         <ul className='header-list' style={{display: display ? 'block' : 'none'}}>
             <li>Home</li>
             <li>Proyects</li>

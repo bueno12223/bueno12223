@@ -1,0 +1,31 @@
+@import '../../assets/styles/roots';
+.hero{
+    padding-top: 50px;
+    padding-left: 10px;
+    & h1 {
+        font-size: 4.5em;
+        line-height: 50px;
+        font-weight: 900;
+        letter-spacing: -3px;
+        text-transform: none;
+        @include response-to (470px) {
+            font-size: 5.5em;
+        }
+        @include response-to(600px) {
+            font-size: 7.5em;
+            padding: 30px 0px 0 51px;
+            line-height: 70px;
+        }
+    }
+    & span {
+        color: $aqua;
+    }
+    p {
+        font-size: 1.6em;
+        margin-top: 20px;
+        line-height: 33px;
+        @include response-to(600px) {
+            margin-left: 51px;
+        }
+    }
+}
