@@ -30,15 +30,7 @@
     }
     &-frameworks {
         &-title {
-            color: $just-white;
-            font-size: 4.5em;
-            line-height: 50px;
-            font-style: normal;
-            font-weight: 700;
-            letter-spacing: -2px;
-            text-transform: none;
-            margin-left: 10vw;
-            margin-top: 20px;
+            @extend %secundary-title
         }
         &-list {
             display: flex;
@@ -61,6 +53,22 @@
         }
         
         
+    }
+    &-skills {
+        &-title {
+            @extend %secundary-title
+        }
+        &-list {
+            display: flex;
+            color: $text-grey;
+            flex-direction: column;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-size: 2em;
+            margin-top: 10px;
+        }
     }
 
 }
