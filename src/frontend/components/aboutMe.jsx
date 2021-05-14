@@ -1,6 +1,10 @@
 import React from 'react'
 const moment = require('moment')
 import { SiJavascript, DiReact, AiFillGithub, SiHtml5, SiCss3, SiSass, AiFillApi, SiWebpack, GrNode, HiServer, SiMongodb, GiSecurityGate, DiJavascript1, SiNpm, SiRedux } from 'react-icons/all'
+import js from '../assets/images/js.png'
+import is from  '../assets/images/is.png'
+import wa from '../assets/images/wa.png'
+import git from '../assets/images/git.png'
 import './styles/aboutMe.scss'
 function aboutMe() {
     const given = moment("2020-12-10", "YYYY-MM-DD");
@@ -48,7 +52,20 @@ function aboutMe() {
                 <li>SEO</li>
                 <li></li>
             </ul>
-
+            </section>
+            <section className='about-certificates'>
+                <h3 className='about-certificates__title'>My certifications</h3>
+                <ul className='about-certificates__list'>
+                    <li><img src={js} alt=""/></li>
+                    <li><img src={is} alt=""/></li>
+                    <li><img src={wa} alt=""/></li>
+                    <li><img src={git} alt=""/></li>
+                    <li>
+                        <div className='about-certificates__more'>
+                            <p>See  my +40 certificates <a href="https://platzi.com/p/jesber122/">here</a></p>
+                        </div>
+                    </li>
+                </ul>
             </section>
 
         </article>
