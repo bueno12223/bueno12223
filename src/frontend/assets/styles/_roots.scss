@@ -34,7 +34,21 @@ $soft-grey: #eaeaea;
     font-weight: 700;
     letter-spacing: -2px;
     text-transform: none;
-    margin-left: 10vw;
+    text-align: center;
     margin-top: 20px;
 
+}
+
+%text {
+    font-size: 1.6em;
+    margin-top: 20px;
+    line-height: 33px;
+    @include response-to(600px) {
+        margin-left: 51px;
+    }
+}
+%decorative {
+    width: 50px;
+    height: 5px;
+    background-color: $aqua;
 }

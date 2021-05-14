@@ -44,6 +44,7 @@ function aboutMe() {
                 <li>Web accessibility</li>
                 <li>Single page app</li>
                 <li>API integration</li>
+                <li>User authentication and authotization</li>
                 <li>SEO</li>
                 <li></li>
             </ul>

@@ -21,11 +21,6 @@
         color: $aqua;
     }
     p {
-        font-size: 1.6em;
-        margin-top: 20px;
-        line-height: 33px;
-        @include response-to(600px) {
-            margin-left: 51px;
-        }
+        @extend %text
     }
 }
