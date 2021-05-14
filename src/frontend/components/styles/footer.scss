@@ -1,0 +1,22 @@
+@import '../../assets/styles/roots';
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    padding: 10px;
+    border-top: 1 solid $grey;
+    justify-items: center;
+    background-color: $grey;
+    margin-top: 20px;
+    & p {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        font-size: 1.6em;
+    }
+    & a svg {
+        width: 40px;
+        height: 40px;
+        fill: $just-white;
+    }
+}
