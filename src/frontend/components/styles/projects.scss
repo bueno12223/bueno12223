@@ -6,17 +6,36 @@
     }
     &-card-container {
         display: flex;
-        flex-wrap: nowrap;
-        overflow: auto;
         width: 90%;
         margin: 0 auto;
-        height: 300px;
+        height: auto;
         gap: 10px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        @include response-to(768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            overflow: hidden;
+            & > :first-child {
+                width: 59%;
+                height: 56%;
+            }
+
+        }
     }
     &-card {
-        height: 260px;
-        min-width: 260px;
-        background-color: blueviolet;
+        height: auto;
+        min-width: 89vw;
+        max-width: 345px !important;
+        & img {
+            width: 100%;
+            border-radius: 10px;
+            height: 100%;
+        }
+        @include response-to(768px) {
+            width: 39%;
+            height: 39%;
+        }
     }
-
 }

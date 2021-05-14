@@ -39,10 +39,12 @@
             display: flex;
             align-items: center;
             margin: 0 auto;
-            color: $text-grey;
             font-size: 2em;
-            font-weight: 400;
             border-bottom: 1px solid $soft-grey;
+            & a {
+                text-decoration: none;
+                color: $text-grey;
+            }
             @include response-to(768px) {
                 border-bottom: none;
                 height: 30px;
@@ -51,6 +53,11 @@
                 &:hover {
                     background-color: $aqua;
                     color: $dark-blue;
+                }
+                & a {
+                    color: $just-white;
+                    text-decoration: none;
+                     font-weight: 500;
                 }
             }
         }

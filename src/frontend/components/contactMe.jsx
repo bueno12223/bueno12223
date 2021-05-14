@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/contactMe.scss";
 function contactMe() {
     return (
-        <article className='contact'>
+        <article className='contact' id='contact'>
             <h2 className='contact-title' >{"<Contact me>"}</h2>
             <section className='contact-section' >
                 <div>

@@ -10,7 +10,7 @@ function aboutMe() {
     const given = moment("2020-12-10", "YYYY-MM-DD");
     const current = moment().startOf('day')
     return (
-        <article className='about'>
+        <article className='about' id='aboutMe'>
             <h2 className='about-title'>{'<About me>'}</h2>
             <section className='about-me'>
                 <h4><b>+600</b><br/> hours experience</h4>

@@ -39,6 +39,7 @@
             display: flex;
             gap: 8px;
             flex-wrap: wrap;
+            justify-content: space-evenly;
             list-style: none;
             margin: 15px auto;
             width: 90%;
@@ -59,7 +60,7 @@
     }
     &-skills {
         &-title {
-            @extend %secundary-title
+            @extend %secundary-title;
         }
         &-list {
             display: flex;
@@ -71,6 +72,15 @@
             gap: 10px;
             font-size: 2em;
             margin-top: 10px;
+            @include response-to(670px) {
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: center;
+                & li {
+                    width: 48.99%;
+                    text-align: center;
+                }
+            }
         }
     }
     &-certificates {
@@ -87,13 +97,16 @@
             gap: 5px;
             margin: 20px 0;
             & :last-child div {
-                background-color: $dark-blue;
+                background-image: url('../../assets/images/back.png');
+                background-repeat: no-repeat;
+                background-size: cover;
                 min-width: 260px;
                 display: flex;
                 & p {
                     margin: auto;
                     text-align: center;
                     font-size: 1.8em;
+                    color: $dark-blue;
                     & a {
                         color: $aqua;
                     }
