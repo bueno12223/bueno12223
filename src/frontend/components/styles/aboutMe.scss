@@ -15,7 +15,9 @@
         justify-items: center;
         align-items: center;
         margin: 0 auto;
-        width: 90%;
+        background-color: $grey;
+        width: 100%;
+        padding: 20px 0;
         @include response-to(690px) {
             grid-template-columns: 1fr 1fr;
             align-items: center;

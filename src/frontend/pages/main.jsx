@@ -4,6 +4,7 @@ import Hero from '../components/hero'
 import Projects from '../components/projects'
 import AboutMe from '../components/aboutMe'
 import ContactMe from '../components/contactMe'
+import Foooter from '../components/footer'
 function main() {
     return (
         <>
@@ -12,6 +13,7 @@ function main() {
             <AboutMe />
             <Projects />
             <ContactMe />
+            <Foooter />
         </>
     )
 }

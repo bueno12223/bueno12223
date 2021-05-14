@@ -38,13 +38,13 @@ function aboutMe() {
             <section className='about-skills'>
             <h3 className='about-skills-title'>What can i do?</h3>
             <ul className='about-skills-list'>
+                <li>User authentication</li>
                 <li>Responsive design</li>
                 <li>Progressive web apps</li>
                 <li>Server side rendering</li>
                 <li>Web accessibility</li>
                 <li>Single page app</li>
-                <li>API integration</li>
-                <li>User authentication and authotization</li>
+                <li>APIs end-points</li>
                 <li>SEO</li>
                 <li></li>
             </ul>
