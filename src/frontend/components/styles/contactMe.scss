@@ -1,0 +1,67 @@
+@import '../../assets/styles/roots';
+
+.contact {
+    &-title {
+        @extend %titles
+    }
+    &-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        @include response-to(640px) {
+            grid-template-columns: 1fr 1fr;
+        }
+        &__title {
+            @extend %secundary-title;
+        }
+        &__text {
+            @extend %text;
+            text-align: justify;
+            margin: 30px;
+            max-width: 540px;
+        }
+        &__decorative {
+            @extend %decorative;
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        
+    }
+    &-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        & :nth-child(3) {
+            padding-bottom: 20% !important;
+        }
+        &__input {
+            background-color: transparent;
+            border-color: $text-grey;
+            border-width: 1px;
+            border-style: solid;
+            color: $ligth-grey;
+            font-size: 1.4em;
+            line-height: 25px;
+            font-weight: 300;
+            letter-spacing: 0px;
+            text-transform: capitalize;
+            margin-bottom: 13px;
+            padding: 10px;
+            width: 70%;
+        }
+        &__submit {
+            background-color: $aqua;
+            border-color: $aqua;
+            color: $dark-blue;
+            font-size: 1.5em;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: 0px;
+            text-transform: capitalize;
+            height: 50px;
+            line-height: 50px;
+            padding: 0 35px;
+        }
+    }
+}
