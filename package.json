@@ -2,10 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "src/server/index.js"
-  },
+  "main": "src/server/index.js",
   "engines": {
     "node": "15.5.0"
   },
