@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react'
 import { AiFillCloseCircle } from 'react-icons/ai'
 import './styles/mainModal.scss'
 
-function MainModal(props) {
-  const { display, children, setDisplay } = props;
-  const [activate, setActivate] = useState(display);
+function MainModal (props) {
+  const { display, children, setDisplay } = props
+  const [activate, setActivate] = useState(display)
 
   useEffect(() => {
-    setActivate(display);
-  }, [display]);
+    setActivate(display)
+  }, [display])
   return (
     <section className='config-container' style={{ display: activate ? 'inline' : 'none' }}>
       <article className='config-header'>
@@ -21,6 +21,6 @@ function MainModal(props) {
         {children[1]}
       </article>
     </section>
-  );
+  )
 }
-export default MainModal;
+export default MainModal

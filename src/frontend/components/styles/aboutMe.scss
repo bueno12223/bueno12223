@@ -44,6 +44,9 @@
             margin: 15px auto;
             width: 90%;
             height: auto;
+            & li:hover {
+                transform: scale(1.5);
+            }
             & * {
                 width: 20vw;
                 height: 80px;
@@ -53,6 +56,10 @@
                 @include response-to(520px) {
                     width: 16vw;
                 }
+                // &:hover  ~ & {
+                //     -webkit-transform: translate3d(50px, 0, 0);
+                //     transform: translate3d(50px, 0, 0);
+                // }
             }
         }
         

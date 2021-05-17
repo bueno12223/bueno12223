@@ -1,5 +1,5 @@
 const serverRoutes = () => {
-  return [];
+  return []
 }
 
-export default serverRoutes;
+export default serverRoutes

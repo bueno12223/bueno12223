@@ -1,11 +1,12 @@
-import fs from 'fs';
+import fs from 'fs'
 
 const getManifest = () => {
   try {
-    return JSON.parse(fs.readFileSync(`${__dirname}/public/manifest.json`));
+    // eslint-disable-next-line node/no-path-concat
+    return JSON.parse(fs.readFileSync(`${__dirname}/public/manifest.json`))
   } catch (error) {
-    console.log(error);
+    console.log(error)
   }
-};
+}
 
-export default getManifest;
+export default getManifest
