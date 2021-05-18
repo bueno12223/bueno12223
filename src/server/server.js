@@ -43,7 +43,7 @@ const setResponse = (html, manifest) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://kit.fontawesome.com/4aeb7d5cfb.js" crossorigin="anonymous"></script>
+      <link rel="shortcut icon" href="https://i.ibb.co/T16t10c/jesus-S.png" />
       <title>Porfolio Yisus</title>   
       <link rel="stylesheet" href='${mainStyles}' type="text/css">
     </head>

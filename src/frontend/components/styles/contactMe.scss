@@ -32,7 +32,7 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        & :nth-child(3) {
+        & :nth-child(4) {
             padding-bottom: 20% !important;
         }
         &__input {
@@ -45,7 +45,6 @@
             line-height: 25px;
             font-weight: 300;
             letter-spacing: 0px;
-            text-transform: capitalize;
             margin-bottom: 13px;
             padding: 10px;
             width: 70%;
@@ -58,10 +57,23 @@
             font-style: normal;
             font-weight: 700;
             letter-spacing: 0px;
-            text-transform: capitalize;
             height: 50px;
             line-height: 50px;
             padding: 0 35px;
         }
+    }
+}
+.span {
+    font-size: 1.2em;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 10px;
+    height: fit-content;
+    &-danger{
+        background-color: #d64545;
+        
+    }
+    &-done{
+        background-color: rgb(90, 161, 90);
     }
 }

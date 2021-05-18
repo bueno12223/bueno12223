@@ -31,6 +31,7 @@
     "bootstrap": "^5.0.1",
     "css-loader": "^5.2.4",
     "dotenv": "^9.0.2",
+    "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "ignore-styles": "^5.0.1",
     "intersection-observer": "^0.12.0",

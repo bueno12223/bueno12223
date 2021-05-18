@@ -70,7 +70,7 @@ function aboutMe () {
           <li><img src={git} alt='' /></li>
           <li>
             <div className='about-certificates__more'>
-              <p>See  my +40 certificates <a href='https://platzi.com/p/jesber122/'>here</a></p>
+              <p>See  my +40 certificates <a href='https://platzi.com/p/jesber122/' target='_blank' rel='noopener noreferrer'>here</a></p>
             </div>
           </li>
         </ul>

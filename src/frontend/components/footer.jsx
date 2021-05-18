@@ -8,11 +8,11 @@ function footer () {
   return (
     <footer>
       <p>Contact whit me here</p>
-      <a href='https://github.com/bueno12223'> <AiFillGithub /> </a>
-      <a href='https://platzi.com/p/jesber122/'><SiPlatzi /></a>
-      <a href='https://www.instagram.com/mr.yisus122/'> <FaInstagram /></a>
-      <a href='https://twitter.com/jesusadrianberr'> <GrTwitter /></a>
-      <a href='https://www.linkedin.com/in/jesus-adri%C3%A1n-berrio-vald%C3%A9s-8156941a2/'> <AiFillLinkedin /></a>
+      <a href='https://github.com/bueno12223' target='_blank' rel='noopener noreferrer'> <AiFillGithub /> </a>
+      <a href='https://platzi.com/p/jesber122/' target='_blank' rel='noopener noreferrer'><SiPlatzi /></a>
+      <a href='https://www.instagram.com/mr.yisus122/' target='_blank' rel='noopener noreferrer'> <FaInstagram /></a>
+      <a href='https://twitter.com/jesusadrianberr' target='_blank' rel='noopener noreferrer'> <GrTwitter /></a>
+      <a href='https://www.linkedin.com/in/jesus-adri%C3%A1n-berrio-vald%C3%A9s-8156941a2/' target='_blank' rel='noopener noreferrer'> <AiFillLinkedin /></a>
     </footer>
   )
 }

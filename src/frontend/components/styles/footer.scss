@@ -15,6 +15,9 @@ footer {
         grid-column-end: 6;
         font-size: 1.6em;
     }
+    & a:hover svg {
+        fill: $aqua;
+    }
     & a svg {
         width: 40px;
         height: 40px;
