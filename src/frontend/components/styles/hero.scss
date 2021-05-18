@@ -1,7 +1,8 @@
 @import '../../assets/styles/roots';
 .hero{
-    padding-top: 50px;
-    padding-left: 10px;
+    padding-top: 25px;
+    padding-left: 5%;
+    max-width: 1024px;
     & h1 {
         font-size: 14vw;
         line-height: 50px;

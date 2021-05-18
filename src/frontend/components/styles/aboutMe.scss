@@ -44,8 +44,15 @@
             margin: 15px auto;
             width: 90%;
             height: auto;
+            & li {
+                transition: 450ms;
+            }
             & li:hover {
                 transform: scale(1.5);
+                ~ & {
+                    -webkit-transform: translate3d(50px, 0, 0);
+                    transform: translate3d(50px, 0, 0);
+                }
             }
             & * {
                 width: 20vw;
@@ -56,10 +63,6 @@
                 @include response-to(520px) {
                     width: 16vw;
                 }
-                // &:hover  ~ & {
-                //     -webkit-transform: translate3d(50px, 0, 0);
-                //     transform: translate3d(50px, 0, 0);
-                // }
             }
         }
         
@@ -103,6 +106,9 @@
             list-style: none;
             gap: 5px;
             margin: 20px 0;
+            @include response-to(1300px) {
+                overflow: hidden;
+            }
             & :last-child div {
                 background-image: url('../../assets/images/back.png');
                 background-repeat: no-repeat;

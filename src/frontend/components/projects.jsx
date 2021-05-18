@@ -1,50 +1,54 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import HomeBB from '../assets/images/homeBB.jpeg'
 import HomeTV from '../assets/images/homeTV.png'
 import HomeCC from '../assets/images/homeCC.jpg'
-import MainModal from './MainModal'
+import HomeRT from '../assets/images/homeRT.jpg'
+import lanBB from '../assets/images/land.jpeg'
 import './styles/projects.scss'
 function projects () {
-  const [display, setDisplay] = useState('')
-  const [data, setData] = useState({ title: '', img: [], text: '' })
-  useEffect(() => {
-    switch (display) {
-      case 'batata':
-        return setData({
-          title: 'BatataBit',
-          img: [HomeBB, HomeBB],
-          text: 'frifrjifrgnrjilgnrilgnerjig'
-        })
-      default:
-        break
-    }
-  }, [display])
   return (
     <article className='projects' id='proyects'>
-      <MainModal display={display} setDisplay={setDisplay}>
-        <h3>{data.title}</h3>
-        <section>
-          <img src={data.img[0]} alt='' /><img src='' alt='' />
-          <p>{data.text}</p>
-          <img src={data.img[1]} alt='' /><img src='' alt='' />
-        </section>
-      </MainModal>
       <h2 className='projects-title'>{'<Projects>'}</h2>
       <div className='projects-card-container'>
-        <section className='projects-card'>
-          <a href=''>
-            <img src={HomeBB} alt='' />
-          </a>
+        <section className='projects-card batata'>
+          <img src={HomeBB} alt='' />
+          <div className='projects-card-desc' style={{ top: '100%' }}>
+            <p style={{ color: ' #1d1b24' }}>BatataBit</p>
+            <a href='/'>Page</a>
+            <a href='/'>Repository</a>
+          </div>
         </section>
         <section className='projects-card'>
-          <a href=''>
-            <img src={HomeTV} alt='' />
-          </a>
+          <img src={HomeTV} alt='' />
+          <div className='projects-card-desc' style={{ top: '100%' }}>
+            <p>Total-video</p>
+            <a href='/'>Page</a>
+            <a href='/'>Repository</a>
+          </div>
         </section>
         <section className='projects-card'>
-          <a href=''>
-            <img src={HomeCC} alt='' />
-          </a>
+          <img src={HomeCC} alt='' />
+          <div className='projects-card-desc' style={{ top: '100%' }}>
+            <p>Cripto conf</p>
+            <a href='/'>Page</a>
+            <a href='/'>Repository</a>
+          </div>
+        </section>
+        <section className='projects-card'>
+          <img src={HomeRT} alt='' />
+          <div className='projects-card-desc' style={{ top: '100%' }}>
+            <p style={{ color: ' #1d1b24' }}>RNT</p>
+            <a href='/'>Page</a>
+            <a href='/'>Repository</a>
+          </div>
+        </section>
+        <section className='projects-card'>
+          <img src={lanBB} alt='' />
+          <div className='projects-card-desc' style={{ top: '100%' }}>
+            <p>Batatabit</p>
+            <a href='/'>Page</a>
+            <a href='/'>Repository</a>
+          </div>
         </section>
       </div>
     </article>

@@ -5,7 +5,6 @@ import { DiReact, DiJavascript1 } from 'react-icons/di'
 import { GrNode } from 'react-icons/gr'
 import { HiServer } from 'react-icons/hi'
 import { GiSecurityGate } from 'react-icons/gi'
-import { RiLockPasswordFill } from 'react-icons/ri'
 import Numbers from './numbers'
 import js from '../assets/images/js.png'
 import is from '../assets/images/is.png'
@@ -24,7 +23,7 @@ function aboutMe () {
       <section className='about-me'>
         <Numbers number='600' description='hours experience' counter={6} />
         <Numbers number={days.toString()} description='days since i start' counter={15} />
-        <Numbers number='137' description='commits' counter={13} />
+        <Numbers number='201' description='commits' counter={13} />
         <Numbers number='41' description='programming courses pass' counter={4} />
       </section>
       <section className='about-frameworks'>
@@ -51,7 +50,7 @@ function aboutMe () {
       <section className='about-skills'>
         <h3 className='about-skills-title'>What can i do?</h3>
         <ul className='about-skills-list'>
-          <li><RiLockPasswordFill />User authentication</li>
+          <li>User authentication</li>
           <li>Responsive design</li>
           <li>Progressive web apps</li>
           <li>Server side rendering</li>

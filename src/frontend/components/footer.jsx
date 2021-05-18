@@ -7,7 +7,7 @@ import './styles/footer.scss'
 function footer () {
   return (
     <footer>
-      <p>My social networks</p>
+      <p>Contact whit me here</p>
       <a href='https://github.com/bueno12223'> <AiFillGithub /> </a>
       <a href='https://platzi.com/p/jesber122/'><SiPlatzi /></a>
       <a href='https://www.instagram.com/mr.yisus122/'> <FaInstagram /></a>
