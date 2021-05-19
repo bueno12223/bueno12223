@@ -7,7 +7,7 @@ function hero () {
         <br />
         <span>I am Yisus</span>, a front-end developer
       </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum perferendis eos perspiciatis veritatis molestias dolorem aut doloremque, dicta in vero, error ipsa ducimus nulla asperiores. Explicabo in doloremque deserunt!</p>
+      <p>a javascript student, since backend to frontend I use it, even I know backend, I prefer to work in frontend because my knowledge is most in this area, scroll down to see more of me.</p>
     </section>
   )
 }

@@ -12,12 +12,21 @@
         }
         &__title {
             @extend %secundary-title;
+            @include response-to(400px){
+                margin-left: 30px;
+                text-align: unset
+            }
         }
         &__text {
             @extend %text;
             text-align: justify;
             margin: 30px;
             max-width: 540px;
+        }
+        &__button{
+            margin: 10px auto;
+            margin-left: 30px;
+            margin-bottom: 30px;
         }
         &__decorative {
             @extend %decorative;
@@ -60,6 +69,7 @@
             height: 50px;
             line-height: 50px;
             padding: 0 35px;
+            border: unset;
         }
     }
 }

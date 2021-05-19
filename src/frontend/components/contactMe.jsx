@@ -22,7 +22,8 @@ function contactMe () {
       <section className='contact-section'>
         <div>
           <h3 className='contact-section__title'>Hire me for the next proyects</h3>
-          <p className='contact-section__text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maxime explicabo qui ea culpa officia non labore quam ad voluptas veritatis, iure provident omnis, fugiat dolorum reprehenderit? Animi, consequatur accusantium.</p>
+          <p className='contact-section__text'>I know, if you are here, you are interested in work whit me, me too, why you send me an email in the next form? or if you want to know more about me click below to download the Yisus developer curriculum vitae.</p>
+          <button type='button' className='contact-form__submit contact-section__button'>Download CV</button>
           <div className='contact-section__decorative' />
         </div>
         <form onSubmit={sendEmail} className='contact-form'>
