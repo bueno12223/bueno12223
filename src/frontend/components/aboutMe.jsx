@@ -1,49 +1,53 @@
 import React from 'react'
-import { AiFillGithub, AiFillApi } from 'react-icons/ai'
-import { SiJavascript, SiHtml5, SiCss3, SiSass, SiWebpack, SiMongodb, SiNpm, SiRedux } from 'react-icons/si'
-import { DiReact, DiJavascript1 } from 'react-icons/di'
-import { GrNode } from 'react-icons/gr'
-import { HiServer } from 'react-icons/hi'
-import { GiSecurityGate } from 'react-icons/gi'
+import IReact from '../assets/icons/react'
+import IJs from '../assets/icons/js'
+import IGit from '../assets/icons/git'
+import IHtml from '../assets/icons/html'
+import ICss from '../assets/icons/css'
+import ISass from '../assets/icons/sass'
+import Iapi from '../assets/icons/api'
+import Iwebpack from '../assets/icons/webpack'
+import Inode from '../assets/icons/node'
+import Iexpress from '../assets/icons/express'
+import Imongo from '../assets/icons/mongo'
+import Iauth from '../assets/icons/auth'
+import Ivanilla from '../assets/icons/vanilla'
+import Inpm from '../assets/icons/npm'
+import Iredux from '../assets/icons/redux'
 import Numbers from './numbers'
 import js from '../assets/images/js.png'
 import is from '../assets/images/is.png'
 import wa from '../assets/images/wa.png'
 import git from '../assets/images/git.png'
 import './styles/aboutMe.scss'
-const moment = require('moment')
 function aboutMe () {
-  const given = moment('2020-12-10', 'YYYY-MM-DD')
-  const current = moment().startOf('day')
-  const days = moment.duration(given.diff(current)).asDays() * -1
-
   return (
     <article className='about' id='aboutMe'>
       <h2 className='about-title'>{'<About me>'}</h2>
       <section className='about-me'>
         <Numbers number='600' description='hours experience' counter={6} />
-        <Numbers number={days.toString()} description='days since i start' counter={15} />
+        <Numbers number='150' description='days since i start' counter={15} />
         <Numbers number='201' description='commits' counter={13} />
         <Numbers number='41' description='programming courses pass' counter={4} />
       </section>
       <section className='about-frameworks'>
         <h3 className='about-frameworks-title'>My frameworks</h3>
         <ul className='about-frameworks-list'>
-          <li>Rect.js <DiReact /></li>
-          <li>javaScript <SiJavascript /></li>
-          <li>Git<AiFillGithub /></li>
-          <li>HTML <SiHtml5 /></li>
-          <li>CSS <SiCss3 /></li>
-          <li>Sass<SiSass /></li>
-          <li>API REST <AiFillApi /></li>
-          <li>Webpack <SiWebpack /></li>
-          <li>Node.js <GrNode /></li>
-          <li>Express.js <HiServer /></li>
-          <li>MongoDB <SiMongodb /></li>
-          <li>Oauth <GiSecurityGate /></li>
-          <li>Vanilla JS <DiJavascript1 /></li>
-          <li>NPM <SiNpm /></li>
-          <li>redux <SiRedux /></li>
+          <li>Rect.js <IReact /></li>
+          <li>javaScript <IJs /></li>
+          <li>Git<IGit /></li>
+          <li>HTML <IHtml /></li>
+          <li>CSS <ICss /></li>
+          <li>Sass<ISass /></li>
+          <li>API REST <Iapi /></li>
+          <li>Webpack <Iwebpack /></li>
+          <li>Node.js <Inode /></li>
+          <li>Express.js <Iexpress /></li>
+          <li>MongoDB <Imongo /></li>
+          <li>Oauth <Iauth /></li>
+          <li>Vanilla JS <Ivanilla /></li>
+          <li>NPM <Inpm /></li>
+          <li>redux <Iredux /></li>
         </ul>
       </section>
 

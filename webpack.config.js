@@ -27,6 +27,7 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   optimization: {
+    sideEffects: true,
     minimize: true,
     minimizer: [new TerserPlugin()],
     splitChunks: {
@@ -71,7 +72,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: 'assets/[name].[ext]'
+              name: 'assets/[name]-[hash].[ext]'
             }
           }
         ]

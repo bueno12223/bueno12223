@@ -21,7 +21,7 @@
         border: none;
     }
     &-logo {
-        width: 65%;
+        width: 16em;
         @include response-to(768px) {
             width: 24%;
         }
