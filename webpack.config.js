@@ -19,7 +19,7 @@ module.exports = {
   entry,
   mode: process.env.ENV,
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'src/server/public'),
     filename: isDev ? 'assets/app.js' : 'assets/app-[fullhash].js',
     publicPath: '/'
   },
