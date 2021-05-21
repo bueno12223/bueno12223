@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
+import CV from '../assets/JesusBerrio.pdf'
 import './styles/contactMe.scss'
 function contactMe () {
   const [result, setResult] = useState({ message: '', type: '' })
@@ -23,7 +24,7 @@ function contactMe () {
         <div>
           <h3 className='contact-section__title'>Hire me for the next proyects</h3>
           <p className='contact-section__text'>I know, if you are here, you are interested in work whit me, me too, why you send me an email in the next form? or if you want to know more about me click below to download the Yisus developer curriculum vitae.</p>
-          <button type='button' className='contact-form__submit contact-section__button'>Download CV</button>
+          <a href={CV} target='_blank' rel='noreferrer' type='button' className='contact-form__submit contact-section__button'>Download CV</a>
           <div className='contact-section__decorative' />
         </div>
         <form onSubmit={sendEmail} className='contact-form'>

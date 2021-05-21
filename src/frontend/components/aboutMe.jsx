@@ -58,10 +58,10 @@ function aboutMe () {
           <li>Responsive design</li>
           <li>Progressive web apps</li>
           <li>Server side rendering</li>
-          <li>Web accessibility</li>
+          <li>Backend and frontend integration</li>
           <li>Single page app</li>
           <li>APIs end-points</li>
-          <li>SEO</li>
+          <li>Digital marketing</li>
           <li />
         </ul>
       </section>
