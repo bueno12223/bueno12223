@@ -20,7 +20,8 @@ function main () {
     contact: [
       'Contrátame para tu siguiente proyecto',
       'Lo se, si estas aquí, estas muy interesado en trabajar conmigo, to también!!, ¿Porqué no me mandas un email? o si quieres saber mas acerca de mi descarga mi curriculum aquí abajo :)',
-      'Descargar CV'
+      'Descargar CV',
+      'https://drive.google.com/file/d/1hJwRdcJL0BC3Q2IH6HlU4o2uhmNFNHZ-/view?usp=sharing'
     ],
     footer: 'Contáctame aquí'
   }
@@ -37,7 +38,8 @@ function main () {
     contact: [
       'Hire me for the next proyects',
       'I know, if you are here, you are interested in work whit me, me too, why you send me an email in the next form? or if you want to know more about me click below to download the Yisus developer curriculum vitae :)',
-      'Download CV'
+      'Download CV',
+      'https://drive.google.com/file/d/1UjxhvQJHVw0r0xXwIyzbW2X3ys7bdfZd/view?usp=sharing'
     ],
     footer: 'Contact me here'
   }

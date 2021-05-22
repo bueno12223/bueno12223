@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
-import CV from '../assets/JesusBerrio.pdf'
 import './styles/contactMe.scss'
 function contactMe ({ data: contact, title }) {
   const [result, setResult] = useState({ message: '', type: '' })
@@ -24,7 +23,7 @@ function contactMe ({ data: contact, title }) {
         <div>
           <h3 className='contact-section__title'>{contact[0]}</h3>
           <p className='contact-section__text'>{contact[1]}</p>
-          <a href={CV} target='_blank' rel='noreferrer' type='button' className='contact-form__submit contact-section__button'>{contact[2]}</a>
+          <a href={contact[3]} target='_blank' rel='noreferrer' type='button' className='contact-form__submit contact-section__button'>{contact[2]}</a>
           <div className='contact-section__decorative' />
         </div>
         <form onSubmit={sendEmail} className='contact-form'>
