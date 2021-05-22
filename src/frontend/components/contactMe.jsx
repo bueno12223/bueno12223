@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import emailjs from 'emailjs-com'
 import CV from '../assets/JesusBerrio.pdf'
 import './styles/contactMe.scss'
-function contactMe () {
+function contactMe ({ data: contact, title }) {
   const [result, setResult] = useState({ message: '', type: '' })
   function sendEmail (e) {
     e.preventDefault()
@@ -18,13 +18,13 @@ function contactMe () {
       })
   }
   return (
-    <article className='contact' id='contact'>
-      <h2 className='contact-title'>{'<Contact me>'}</h2>
+    <article className='contact' id='3'>
+      <h2 className='contact-title'>{`<${title}>`}</h2>
       <section className='contact-section'>
         <div>
-          <h3 className='contact-section__title'>Hire me for the next proyects</h3>
-          <p className='contact-section__text'>I know, if you are here, you are interested in work whit me, me too, why you send me an email in the next form? or if you want to know more about me click below to download the Yisus developer curriculum vitae.</p>
-          <a href={CV} target='_blank' rel='noreferrer' type='button' className='contact-form__submit contact-section__button'>Download CV</a>
+          <h3 className='contact-section__title'>{contact[0]}</h3>
+          <p className='contact-section__text'>{contact[1]}</p>
+          <a href={CV} target='_blank' rel='noreferrer' type='button' className='contact-form__submit contact-section__button'>{contact[2]}</a>
           <div className='contact-section__decorative' />
         </div>
         <form onSubmit={sendEmail} className='contact-form'>

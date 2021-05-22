@@ -5,10 +5,10 @@ import IIg from '../assets/icons/ig'
 import ITw from '../assets/icons/twitter'
 import IIn from '../assets/icons/lkn'
 import './styles/footer.scss'
-function footer () {
+function footer ({ data }) {
   return (
     <footer>
-      <p>Contact whit me here</p>
+      <p>{data}</p>
       <a href='https://github.com/bueno12223' target='_blank' rel='noopener noreferrer'> <IGit /> </a>
       <a href='https://platzi.com/p/jesber122/' target='_blank' rel='noopener noreferrer'><IPlatzi /></a>
       <a href='https://www.instagram.com/mr.yisus122/' target='_blank' rel='noopener noreferrer'> <IIg /></a>

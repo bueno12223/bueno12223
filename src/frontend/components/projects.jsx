@@ -5,10 +5,10 @@ import HomeCC from '../assets/images/homeCC.jpg'
 import HomeRT from '../assets/images/homeRT.jpg'
 import lanBB from '../assets/images/land.jpeg'
 import './styles/projects.scss'
-function projects () {
+function projects ({ title }) {
   return (
-    <article className='projects' id='proyects'>
-      <h2 className='projects-title'>{'<Projects>'}</h2>
+    <article className='projects' id='2'>
+      <h2 className='projects-title'>{`<${title}>`}</h2>
       <div className='projects-card-container'>
         <section className='projects-card batata'>
           <img src={HomeBB} alt='' />

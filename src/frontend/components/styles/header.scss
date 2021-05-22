@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     gap: 8px;
     width: 100%;
-    @include response-to(768px) {
+    @include response-to(801px) {
         background: none;
         & button {
             display: none;
@@ -22,14 +22,14 @@
     }
     &-logo {
         width: 16em;
-        @include response-to(768px) {
+        @include response-to(801px) {
             width: 24%;
         }
     }
     &-icon {
         font-size: 2.5em;
         color: $text-grey;
-        @include response-to(768px) {
+        @include response-to(801px) {
             display: none;
         }
     }
@@ -38,7 +38,7 @@
         width: 100%;
         list-style: none;
         transition: 0.5s;
-        @include response-to(768px) {
+        @include response-to(801px) {
             width: fit-content;
             color: $just-white;
             display: flex !important;
@@ -52,12 +52,16 @@
             align-items: center;
             margin: 0 auto;
             font-size: 2em;
-            border-bottom: 1px solid $soft-grey;
+            border-bottom: 1px solid $soft-grey;             
+            img {
+                width: 53px;
+                height: 33px;
+            }
             & a {
                 text-decoration: none;
                 color: $text-grey;
             }
-            @include response-to(768px) {
+            @include response-to(801px) {
                 border-bottom: none;
                 height: 30px;
                 padding: 8px 20px;
