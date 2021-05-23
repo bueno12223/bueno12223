@@ -1,4 +1,4 @@
-# Yisus developer
+# Jesus developer
 Hello, I am Jesus, a Jr. fronted and some backend developer, I have the MERN stack ( Mongo DB, Express, React, Node ), I have +600h experience, some in courses other in my personals jobs.
 
 ## My frameworks
