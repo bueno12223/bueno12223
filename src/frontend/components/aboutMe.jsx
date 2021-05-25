@@ -5,7 +5,7 @@ import IGit from '../assets/icons/git'
 import IHtml from '../assets/icons/html'
 import ICss from '../assets/icons/css'
 import ISass from '../assets/icons/sass'
-import Iapi from '../assets/icons/api'
+import IGitH from '../assets/icons/gitH'
 import Iwebpack from '../assets/icons/webpack'
 import Inode from '../assets/icons/node'
 import Iexpress from '../assets/icons/express'
@@ -39,12 +39,12 @@ function aboutMe ({ me, certifications, extra, title, que }) {
         <ul className='about-frameworks-list'>
           <li>Rect.js <IReact /></li>
           <li>javaScript <IJs /></li>
-          <li>Git<IGit /></li>
+          <li>Git <IGitH /></li>
           <li>HTML <IHtml /></li>
           <li>CSS <ICss /></li>
           <li>Sass<ISass /></li>
-          <li>API REST <Iapi /></li>
           <li>Webpack <Iwebpack /></li>
+          <li>GitHub<IGit /></li>
           <li>Node.js <Inode /></li>
           <li>Express.js <Iexpress /></li>
           <li>MongoDB <Imongo /></li>

@@ -10,13 +10,6 @@ function hero ({ data, hobby }) {
         </h1>
         <p>{data[2]}</p>
       </section>
-      <section className='about-skills'>
-        <h3 className='about-skills-title'>Hobbies</h3>
-        <ul className='about-skills-list'>
-          {hobby.map(hobby => <li key={hobby}>{hobby}</li>)}
-          <li />
-        </ul>
-      </section>
     </>
   )
 }
