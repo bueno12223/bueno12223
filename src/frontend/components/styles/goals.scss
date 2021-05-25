@@ -1,0 +1,14 @@
+@import '../../assets/styles/roots';
+.goals {
+    h3 {
+        @extend %titles
+    }
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+    section {
+        display: inline-block;
+    }
+}
