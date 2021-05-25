@@ -97,7 +97,14 @@ function main () {
     ],
     footer: 'Contact me here'
   }
-  const [data, setData] = useState(dataEn)
+  const [data, setData] = useState(() => {
+        var ln = navigator.language || navigator.userLanguage;
+        if(ln == 'es-419') {
+            return dataEs
+        }else {
+            return dataEn
+        }
+  })
   useEffect(() => setData(lenguajes ? dataEs : dataEn), [lenguajes])
   return (
     <>
