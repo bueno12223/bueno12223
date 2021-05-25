@@ -46,6 +46,10 @@
             margin: none;
             transition: none;
         }
+        &__lan {
+            background: none !important;
+            cursor: pointer;
+        }
         & li {
             height: 43px;
             display: flex;

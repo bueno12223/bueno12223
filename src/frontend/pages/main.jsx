@@ -3,6 +3,7 @@ import Header from '../components/header'
 import Hero from '../components/hero'
 import Projects from '../components/projects'
 import AboutMe from '../components/aboutMe'
+import Goals from '../components/goals'
 import ContactMe from '../components/contactMe'
 import Foooter from '../components/footer'
 function main () {
@@ -50,6 +51,7 @@ function main () {
       <Header setLenguje={setLenguajes} lenguaje={lenguajes} data={data.header} />
       <Hero data={data.hero} hobby={data.hobby} />
       <AboutMe {...data.about} title={data.header[1]} />
+      <Goals title={'<My goals>'} data={[{title: 'hola', text: 'ffff' },{title: 'hola', text: 'ffff' },{title: 'hola', text: 'ffff' }]} />
       <Projects title={data.header[2]} />
       <ContactMe data={data.contact} title={data.header[3]} />
       <Foooter data={data.footer} />

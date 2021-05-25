@@ -11,7 +11,7 @@ function Header ({ setLenguje, lenguaje, data }) {
       <img src={Jesus} alt='logo' className='header-logo' />
       <ul className='header-list' style={{ display: display ? 'block' : 'none' }}>
         {data.map((e, idx) => <li key={e}><a href={`#${idx}`}>{e}</a></li>)}
-        <li onClick={(e) => setLenguje(!lenguaje)}><img src={`https://flagcdn.com/${lenguaje ? 'gb' : 'es'}.svg`} alt='English' /></li>
+        <li className='header-list__lan' onClick={(e) => setLenguje(!lenguaje)}><img src={`https://flagcdn.com/${lenguaje ? 'es' : 'gb'}.svg`} alt='English' /></li>
       </ul>
 
     </header>

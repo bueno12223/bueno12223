@@ -24,15 +24,15 @@ function aboutMe ({ me, certifications, extra, title, que }) {
   function getDays (date1, date2) {
     return Math.ceil((date2 - date1) / 8.64e7)
   }
-  const days = getDays(new Date('Dec 10, 2020'), new Date(Date.now()))
+  const days = getDays(new Date('Jun 10, 2020'), new Date(Date.now()))
   return (
     <article className='about' id='1'>
       <h2 className='about-title'>{`<${title}>`}</h2>
       <section className='about-me'>
         <Numbers number='700' description={me[0]} counter={7} />
         <Numbers number={days.toString()} description={me[1]} counter={15} />
-        <Numbers number='201' description='commits' counter={13} />
-        <Numbers number='41' description={me[2]} counter={4} />
+        <Numbers number='300' description='commits' counter={13} />
+        <Numbers number='40' description={me[2]} counter={4} />
       </section>
       <section className='about-frameworks'>
         <h3 className='about-frameworks-title'>Frameworks</h3>
