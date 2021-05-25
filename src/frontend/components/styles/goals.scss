@@ -1,14 +1,47 @@
 @import '../../assets/styles/roots';
 .goals {
-    h3 {
-        @extend %titles
+    h2 {
+        @extend %titles;
+        font-size: 11vw;
     }
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto repeat(3, auto);
+    grid-template-columns: 1fr;
     height: auto;
-    width: 80%;
-    margin: 20px auto;
-    section {
-        display: inline-block;
+    gap: 10px;
+    &-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+        img {
+            width: 70vw;
+        }
+        &__desc {
+            h3 {
+                @extend %secundary-title;
+                font-size: 3em;
+                line-height: 30px;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+    @include response-to(750px) {
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto auto;
+        max-width: 1288px;
+        margin: auto;
+        h2 {
+            grid-column: 3 span;
+            font-size: 11em;
+            padding-right: 0;
+
+        }
+        img {
+            width: 29vw;
+            height: 21vw;
+        }
     }
 }

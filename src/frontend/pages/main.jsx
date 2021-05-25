@@ -18,6 +18,11 @@ function main () {
       que: '¿Qué puedo hacer?',
       extra: 'Mira mis +40 certificaciones'
     },
+    goals: [
+        {title: 'Participante de las Olimpiadas de Informática', text: 'En el 2019 participé de las primeras olimpiadas de informática en Panamá organizado por la Universidad del Istmo.' },
+        {title: 'Ganador de la copa de debate en Panamá', text: 'En el 2019 fui ganador de la copa regional de debate en Panamá, cual fue organizada por ASAPADE.' },
+        {title: 'Participante del TDU', text: 'En el 2018 participé en el Torneo Uniandino de debate en Bogotá, Colombia, quedando entre los mejores oradores.' }
+    ],
     contact: [
       'Contrátame para tu siguiente proyecto',
       'Lo se, si estas aquí, estas muy interesado en trabajar conmigo, to también!!, ¿Porqué no me mandas un email? o si quieres saber mas acerca de mi descarga mi curriculum aquí abajo :)',
@@ -36,6 +41,11 @@ function main () {
       certifications: 'My certifications',
       extra: 'See  my +40 certificates'
     },
+    goals: [
+        {title: 'Participant of the Computer Science Olympics', text: 'In 2019 I participated in the first computer science Olympics in Panama organized by the Universidad del Istmo.' },
+        {title: 'Winner of the Regional Debate Cup in Panama', text: 'In 2019 I was the winner of the regional debate cup in Panama, which was organized by ASAPADE.' },
+        {title: 'Participant of the Uniandino Debate Tournament', text: 'In 2018 I participated in the Uniandino Debate Tournament in Bogotá, Colombia, remaining among the best speakers.' }
+    ],
     contact: [
       'Hire me for the next proyects',
       'I know, if you are here, you are interested in work whit me, me too, why you send me an email in the next form? or if you want to know more about me click below to download the Yisus developer curriculum vitae :)',
@@ -51,7 +61,7 @@ function main () {
       <Header setLenguje={setLenguajes} lenguaje={lenguajes} data={data.header} />
       <Hero data={data.hero} hobby={data.hobby} />
       <AboutMe {...data.about} title={data.header[1]} />
-      <Goals title={'<My goals>'} data={[{title: 'hola', text: 'ffff' },{title: 'hola', text: 'ffff' },{title: 'hola', text: 'ffff' }]} />
+      <Goals title={'<Achivements>'} data={data.goals} />
       <Projects title={data.header[2]} />
       <ContactMe data={data.contact} title={data.header[3]} />
       <Foooter data={data.footer} />

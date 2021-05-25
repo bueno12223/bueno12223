@@ -1,5 +1,5 @@
 import React from "react";
-import goalCN from "../assets/images/GoalCN.jpg";
+import goalCN from "../assets/images/goalNC.jpg";
 import goalOF from "../assets/images/goalOF.jpg";
 import goalTDU from "../assets/images/goalTDU.jpg";
 import "./styles/goals.scss";
