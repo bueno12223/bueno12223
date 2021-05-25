@@ -8,7 +8,7 @@ function goals(props) {
     const {data} = props
     const img = [goalOF, goalCN, goalTDU]
     return (
-        <section className="goals">
+        <section className="goals" id='1'>
             <h2>{title}</h2>
             {data.map((e, idx) => (
                 <article className="goals-section">

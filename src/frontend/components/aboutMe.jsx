@@ -26,7 +26,7 @@ function aboutMe ({ me, certifications, extra, title, que }) {
   }
   const days = getDays(new Date('Jun 10, 2020'), new Date(Date.now()))
   return (
-    <article className='about' id='1'>
+    <article className='about' id='0'>
       <h2 className='about-title'>{`<${title}>`}</h2>
       <section className='about-me'>
         <Numbers number='700' description={me[0]} counter={7} />

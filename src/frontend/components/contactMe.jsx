@@ -17,7 +17,7 @@ function contactMe ({ data: contact, title }) {
       })
   }
   return (
-    <article className='contact' id='3'>
+    <article className='contact' id='4'>
       <h2 className='contact-title'>{`<${title}>`}</h2>
       <section className='contact-section'>
         <div>

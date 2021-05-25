@@ -1,19 +1,19 @@
-import React from "react";
+import React from "react"
 import "./styles/recomendations.scss";
-function recomendations({ data }) {
-    console.log(data);
+function recomendations({ data, title }) {
+    const names = ['Juan Diego Vásques', 'Gerardo Huertas', 'Jose Luis        Paniza']
     return (
-        <section className="recomendations">
-            <h2 className="recomendations-title">References</h2>
-            <div className="recomendations-card_container">
-                {data.map((e) => (
+        <section className="recomendations" di='3'>
+            <h2 className="recomendations-title">{`<${title}>`}</h2>
+            <div className="recomendations-card__container">
+                {data.map((e, idx) => (
                     <article className="recomendations-card">
                         <h4>
-                            <b>Juan Diego Vásques</b>
+                            <b>{names[idx]}</b>
                             <br />
                             {e.chargue}
                         </h4>
-                        <p>{e.text} </p>
+                        <p>“{e.text}”</p>
                     </article>
                 ))}
             </div>

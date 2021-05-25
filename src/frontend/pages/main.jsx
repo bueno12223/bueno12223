@@ -10,7 +10,7 @@ import Foooter from '../components/footer'
 function main () {
   const [lenguajes, setLenguajes] = useState(false)
   const dataEs = {
-    header: ['Inicio', 'Acerca de mí', 'Proyectos', 'Contacto'],
+    header: [ 'Acerca de mí','Logros', 'Proyectos', 'Referencias', 'Contacto'],
     hobby: ['Practicar artes marciales', 'Emprendimiento', 'Leer libros de desarrollo personal', 'Debate competitivo', 'Aprender nuevas cosas', 'Ir al gimnnasio', 'Viajar y visitar nuevos lugares nuevos'],
     hero: ['Hola', 'soy Jesús', 'Soy un estudiante autodidacta de Panamá, un pequeño y hermoso país en Centro América, Tengo 18 años y empecé a programar solamente en HTML desde que tengo 16 como un hobby,terminé la secundaria el año pasado y decidí intentar ser un programador autodidacta, creo que esta es la edad para tomar mas riesgos nuestras desiciones y esto es lo que he hecho.'],
     about: {
@@ -54,7 +54,7 @@ function main () {
     footer: 'Contáctame aquí'
   }
   const dataEn = {
-    header: ['Home', 'About me', 'Projects', 'Contact me'],
+    header: ['About me','Achivements', 'Proyects', 'References', 'Contact'],
     hobby: ['Practice marcials arts', 'Entrepreneurship', 'Read selft development books', 'Competitive debate', 'Learn new things', 'Go to the gym', 'Parkure', 'Travel and visit new places'],
     hero: ['Hello', 'I am Jesus', 'I am an autodidact student from Panama, a little and beautiful country in Central America, I have 18 years old and I started programming whit only HTML since y have 16 but more like a hobby, I end high school in 2020 I decided to try to be an autodidact programmer, I think that this is the age to take more risk in our desitions so decided try, and this is what I do.'],
     about: {
@@ -103,11 +103,11 @@ function main () {
     <>
       <Header setLenguje={setLenguajes} lenguaje={lenguajes} data={data.header} />
       <Hero data={data.hero} hobby={data.hobby} />
-      <AboutMe {...data.about} title={data.header[1]} />
-      <Goals title={'<Achivements>'} data={data.goals} />
+      <AboutMe {...data.about} title={data.header[0]} />
+      <Goals itle={data.header[1]} data={data.goals} />
       <Projects title={data.header[2]} />
-      <Recomendations data={data.recomendations} />
-      <ContactMe data={data.contact} title={data.header[3]} />
+      <Recomendations data={data.recomendations} title={data.header[3]} />
+      <ContactMe data={data.contact} title={data.header[4]} />
       <Foooter data={data.footer} />
     </>
   )
