@@ -17,6 +17,9 @@
             display: none;
         }
     }
+    @include response-to(973px){
+        justify-content: space-between;
+    }
     & button {
         background: none;
         border: none;

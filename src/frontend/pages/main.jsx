@@ -8,7 +8,9 @@ import Recomendations from '../components/recomendations'
 import ContactMe from '../components/contactMe'
 import Foooter from '../components/footer'
 function main () {
-  const [lenguajes, setLenguajes] = useState(false)
+  const [lenguajes, setLenguajes] = useState(() => {
+    navigator.language || navigator.userLanguage === 'en'
+  })
   const dataEs = {
     header: [ 'Acerca de mí','Logros', 'Proyectos', 'Referencias', 'Contacto'],
     hobby: ['Practicar artes marciales', 'Emprendimiento', 'Leer libros de desarrollo personal', 'Debate competitivo', 'Aprender nuevas cosas', 'Ir al gimnnasio', 'Viajar y visitar nuevos lugares nuevos'],
@@ -97,14 +99,7 @@ function main () {
     ],
     footer: 'Contact me here'
   }
-  const [data, setData] = useState(() => {
-        var ln = navigator.language || navigator.userLanguage;
-        if(ln == 'es-419') {
-            return dataEs
-        }else {
-            return dataEn
-        }
-  })
+  const [data, setData] = useState(() => lenguajes ? dataEn : dataEs)
   useEffect(() => setData(lenguajes ? dataEs : dataEn), [lenguajes])
   return (
     <>
@@ -112,7 +107,7 @@ function main () {
       <Hero data={data.hero} hobby={data.hobby} />
       <AboutMe {...data.about} title={data.header[0]} />
       <Goals itle={data.header[1]} data={data.goals} />
-      <Projects title={data.header[2]} />
+      <Projects title={data.header[2]} lan={lenguajes} />
       <Recomendations data={data.recomendations} title={data.header[3]} />
       <ContactMe data={data.contact} title={data.header[4]} />
       <Foooter data={data.footer} />
