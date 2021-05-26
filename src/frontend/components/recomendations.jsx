@@ -3,7 +3,7 @@ import "./styles/recomendations.scss";
 function recomendations({ data, title }) {
     const names = ['Juan Diego Vásques', 'Gerardo Huertas', 'Jose Luis        Paniza']
     return (
-        <section className="recomendations" di='3'>
+        <section className="recomendations" id='3'>
             <h2 className="recomendations-title">{`<${title}>`}</h2>
             <div className="recomendations-card__container">
                 {data.map((e, idx) => (

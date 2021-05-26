@@ -3,7 +3,7 @@ import './styles/hero.scss'
 function hero ({ data, hobby }) {
   return (
     <>
-      <section className='hero' id='0'>
+      <section className='hero' >
         <h1><span>{'<br>'}</span>{data[0]}<span>{'<br/>'}</span>
           <br />
           <span>{data[1]}</span>, a front-end / back-end developer

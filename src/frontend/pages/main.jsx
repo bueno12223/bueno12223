@@ -24,7 +24,7 @@ function main () {
     goals: [
         {title: 'Participante de las Olimpiadas de Informática', text: 'En el 2019 participé de las primeras olimpiadas de informática en Panamá organizado por la Universidad del Istmo.' },
         {title: 'Ganador de la copa de debate en Panamá', text: 'En el 2019 fui ganador de la copa regional de debate en Panamá, cual fue organizada por ASAPADE.' },
-        {title: 'Participante del TDU', text: 'En el 2018 participé en el Torneo Uniandino de debate en Bogotá, Colombia, quedando entre los mejores oradores.' }
+        {title: 'Participante del Torneo Uniandino de Debate', text: 'En el 2018 participé en el Torneo Uniandino de debate en Bogotá, Colombia, quedando entre los mejores oradores.' }
     ],
     recomendations: [
         {
@@ -51,7 +51,7 @@ function main () {
       'Contrátame para tu siguiente proyecto',
       'Lo se, si estas aquí, estas muy interesado en trabajar conmigo, to también!!, ¿Porqué no me mandas un email? o si quieres saber mas acerca de mi descarga mi curriculum aquí abajo :)',
       'Descargar CV',
-      'https://drive.google.com/file/d/1hJwRdcJL0BC3Q2IH6HlU4o2uhmNFNHZ-/view?usp=sharing'
+      'https://drive.google.com/file/d/13oN4ed_aMF_cifK9i0wo7f2VCm6RYrSk/view?usp=sharing'
     ],
     footer: 'Contáctame aquí'
   }
@@ -95,7 +95,7 @@ function main () {
       'Hire me for the next proyects',
       'I know, if you are here, you are interested in work whit me, me too, why you send me an email in the next form? or if you want to know more about me click below to download the Yisus developer curriculum vitae :)',
       'Download CV',
-      'https://drive.google.com/file/d/1UjxhvQJHVw0r0xXwIyzbW2X3ys7bdfZd/view?usp=sharing'
+      'https://drive.google.com/file/d/1Yiuimf9N9--ruBo-qUg_Tjvo7uAFPRI6/view?usp=sharing'
     ],
     footer: 'Contact me here'
   }
