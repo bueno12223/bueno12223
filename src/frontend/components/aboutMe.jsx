@@ -11,9 +11,9 @@ import Inode from '../assets/icons/node'
 import Iexpress from '../assets/icons/express'
 import Imongo from '../assets/icons/mongo'
 import Iboostrap from '../assets/icons/boostrap'
-import IRRouter from '../assets/icons/reactRouter'
+import Igraphql from '../assets/icons/graphql'
 import Inpm from '../assets/icons/npm'
-import Iredux from '../assets/icons/redux'
+import Itypescript from '../assets/icons/typescript'
 import Numbers from './numbers'
 import js from '../assets/images/js.png'
 import is from '../assets/images/is.png'
@@ -49,9 +49,9 @@ function aboutMe ({ me, certifications, extra, title, que }) {
           <li>Express.js <Iexpress /></li>
           <li>MongoDB <Imongo /></li>
           <li>Bootstrap <Iboostrap /></li>
-          <li>React Router <IRRouter /></li>
+          <li>GraphQL <Igraphql /></li>
           <li>NPM <Inpm /></li>
-          <li>redux <Iredux /></li>
+          <li>TypeScript <Itypescript /></li>
         </ul>
       </section>
 

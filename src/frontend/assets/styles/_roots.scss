@@ -18,7 +18,7 @@ $soft-grey: #eaeaea;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    color: $grey;
+    color: $text-grey;
     @include response-to (640px) {
         font-size: 11em;
         justify-content: flex-end;
