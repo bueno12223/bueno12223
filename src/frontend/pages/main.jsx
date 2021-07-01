@@ -14,7 +14,7 @@ function main () {
   const dataEs = {
     header: [ 'Acerca de mí','Logros', 'Proyectos', 'Referencias', 'Contacto'],
     hobby: ['Practicar artes marciales', 'Emprendimiento', 'Leer libros de desarrollo personal', 'Debate competitivo', 'Aprender nuevas cosas', 'Ir al gimnnasio', 'Viajar y visitar nuevos lugares nuevos'],
-    hero: ['Hola', 'soy Jesús', 'Soy un estudiante autodidacta de Panamá, un pequeño y hermoso país en Centro América, Tengo 18 años y empecé a programar solamente en HTML desde que tengo 16 como un hobby,terminé la secundaria el año pasado y decidí intentar ser un programador autodidacta, creo que esta es la edad para tomar mas riesgos nuestras desiciones y esto es lo que he hecho.'],
+    hero: ['Hola', 'soy Jesús', 'Soy un estudiante autodidacta de Panamá, un pequeño y hermoso país en Centro América, empecé a programar solamente en HTML desde que tengo 16 como un hobby y decidí intentar ser un programador autodidacta, creo que esta es la edad para tomar mas riesgos nuestras desiciones y esto es lo que he hecho.'],
     about: {
       me: ['horas de experiencia', 'dias desde que empecé', 'cursos completados'],
       certifications: 'Mis certificaciones',
@@ -58,7 +58,7 @@ function main () {
   const dataEn = {
     header: ['About me','Achivements', 'Proyects', 'References', 'Contact'],
     hobby: ['Practice marcials arts', 'Entrepreneurship', 'Read selft development books', 'Competitive debate', 'Learn new things', 'Go to the gym', 'Parkure', 'Travel and visit new places'],
-    hero: ['Hello', 'I am Jesus', 'I am an autodidact student from Panama, a little and beautiful country in Central America, I have 18 years old and I started programming whit only HTML since y have 16 but more like a hobby, I end high school in 2020 I decided to try to be an autodidact programmer, I think that this is the age to take more risk in our desitions so decided try, and this is what I do.'],
+    hero: ['Hello', 'I am Jesus', 'I am an autodidact student from Panama, a little and beautiful country in Central America, I started programming whit only HTML since y have 16 but more like a hobby, I decided to try to be an autodidact programmer, I think that this is the age to take more risk in our desitions so decided try, and this is what I do.'],
     about: {
       me: ['hours experience', 'days since i start', 'programming courses pass'],
       que: 'What can I do?',

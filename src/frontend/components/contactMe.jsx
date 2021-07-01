@@ -7,7 +7,6 @@ function contactMe ({ data: contact, title }) {
     e.preventDefault()
     emailjs.sendForm('gmail', 'template_ijhe9ne', e.target, 'user_iBKkdZQMVC7JF9cCe0e5s')
       .then((result) => {
-        console.log(result.text)
         setResult({ message: 'Email send successfully', type: 'span-done' })
         setTimeout(() => setResult({ message: '', type: '' }), 5000)
       }, (error) => {

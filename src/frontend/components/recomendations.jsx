@@ -7,7 +7,7 @@ function recomendations({ data, title }) {
             <h2 className="recomendations-title">{`<${title}>`}</h2>
             <div className="recomendations-card__container">
                 {data.map((e, idx) => (
-                    <article className="recomendations-card">
+                    <article key={e.chargue} className="recomendations-card">
                         <h4>
                             <b>{names[idx]}</b>
                             <br />

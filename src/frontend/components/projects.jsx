@@ -1,9 +1,11 @@
 import React from 'react'
-import HomeBB from '../assets/images/homeBB.jpeg'
+import HomeBB from '../assets/images/homeBB.png'
 import HomeTV from '../assets/images/homeTV.png'
 import HomeCC from '../assets/images/homeCC.jpg'
-import HomeRT from '../assets/images/homeRT.jpg'
+import loginRT from '../assets/images/loginRT.png'
 import lanBB from '../assets/images/land.jpeg'
+import homePG from '../assets/images/homePG.png'
+import homeLV from '../assets/images/homeLV.png'
 import './styles/projects.scss'
 function projects ({ title, lan }) {
   return (
@@ -35,7 +37,7 @@ function projects ({ title, lan }) {
           </div>
         </section>
         <section className='projects-card'>
-          <img src={HomeRT} alt='' />
+          <img src={loginRT} alt='' />
           <div className='projects-card-desc' style={{ top: '100%' }}>
             <p style={{ color: ' #1d1b24' }}>RNT</p>
             <a href='https://running-pips.herokuapp.com/' target='_blank' rel='noopener noreferrer'>{lan ? 'Página': 'Page'}</a>
@@ -48,6 +50,22 @@ function projects ({ title, lan }) {
             <p>Batatabit</p>
             <a target='_blank' rel='noopener noreferrer' href='https://batatabit.herokuapp.com/'>{lan ? 'Página': 'Page'}</a>
             <a target='_blank' rel='noopener noreferrer' href='https://github.com/bueno12223/batatabit'>{lan ? 'Repositirio': 'Repository'}</a>
+          </div>
+        </section>
+        <section className='projects-card'>
+          <img src={homePG} alt='' />
+          <div className='projects-card-desc' style={{ top: '100%' }}>
+            <p>Petgram</p>
+            <a target='_blank' rel='noopener noreferrer' href='https://petgram-avanzado-react.vercel.app/'>{lan ? 'Página': 'Page'}</a>
+            <a target='_blank' rel='noopener noreferrer' href='https://petgram-avanzado-react.vercel.app/'>{lan ? 'Repositirio': 'Repository'}</a>
+          </div>
+        </section>
+        <section className='projects-card'>
+          <img src={homeLV} alt='' />
+          <div className='projects-card-desc' style={{ top: '100%' }}>
+            <p>Laslel VPN</p>
+            <a target='_blank' rel='noopener noreferrer' href='https://laslesvpn-landing.netlify.app/'>{lan ? 'Página': 'Page'}</a>
+            <a target='_blank' rel='noopener noreferrer' href='https://github.com/bueno12223/Runninn-Pips'>{lan ? 'Repositirio': 'Repository'}</a>
           </div>
         </section>
       </div>

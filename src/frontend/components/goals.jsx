@@ -11,7 +11,7 @@ function goals(props) {
         <section className="goals" id='1'>
             <h2>{title}</h2>
             {data.map((e, idx) => (
-                <article className="goals-section">
+                <article key={e.title} className="goals-section">
                     <img src={img[idx]} alt="olimpiada de informatica" />
                     <div className="goals-section__desc">
                         <h3>{e.title}</h3>
