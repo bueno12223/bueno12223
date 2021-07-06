@@ -13,9 +13,6 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "engines": {
-        "node": "15.5.0"
-    },
     "keywords": [],
     "author": "",
     "license": "ISC",
