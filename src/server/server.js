@@ -7,11 +7,13 @@ import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { renderRoutes } from 'react-router-config'
 import { StaticRouter } from 'react-router-dom'
-import serverRoutes from '../frontend/routes/serverRoutes'
 import getManifest from './getManifest'
 dotenv.config()
 const { ENV, PORT } = process.env
 const app = express()
+const serverRoutes = () => {
+  return []
+}
 
 if (ENV === 'development') {
   console.log('Development config')

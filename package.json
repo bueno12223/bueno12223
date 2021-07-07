@@ -8,6 +8,7 @@
         "dev": "nodemon src/server/index.js",
         "build": "webpack-cli --config webpack.config.js",
         "start": "node src/server/index.js",
+        "docker:start": "node index.js",
         "lint-fix": "standard --fix",
         "analize": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
         "predeploy": "npm run build",
