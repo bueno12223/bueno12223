@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "nodemon src/server/index.js",
         "build": "webpack-cli --config webpack.config.js",
-        "start": "node src/server/index.js",
+        "start": "node src/server/server.js",
         "docker:start": "node index.js",
         "analize": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
     },
