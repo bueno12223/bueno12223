@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 // eslint-disable-next-line import/no-extraneous-dependencies
 import webpack from 'webpack'
 import React from 'react'
-import { renderToString } from 'react-loader/server'
+import { renderToString } from 'react-dom/server'
 import { renderRoutes } from 'react-router-config'
 import { StaticRouter } from 'react-router-loader'
 import getManifest from './getManifest'
