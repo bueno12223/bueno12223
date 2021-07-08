@@ -6,12 +6,12 @@
     "scripts": {
         "dev": "nodemon src/server/index.js",
         "build": "webpack-cli --config webpack.config.js",
-        "start": "node src/server/server.js",
-        "docker:start": "node index.js",
+        "start": "node index.js",
+        "serve:start": "node src/server/server.js",
         "analize": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
     },
     "engines": {
-        "node": "15.5.0"
+        "node": "15.0.0"
     },
     "keywords": [],
     "author": "",

@@ -10,4 +10,4 @@ COPY ./src/server .
 
 COPY .env .
 
-CMD ["npm" "docker:start"]
+CMD ["npm", "start"]
