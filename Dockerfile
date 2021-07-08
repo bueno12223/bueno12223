@@ -8,4 +8,6 @@ RUN npm install
 
 COPY ./src/server .
 
+COPY .env .
+
 CMD ["npm" "docker:start"]
