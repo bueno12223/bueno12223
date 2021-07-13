@@ -2,7 +2,6 @@
 import express from 'express'
 import dotenv from 'dotenv'
 // eslint-disable-next-line import/no-extraneous-dependencies
-import webpack from 'webpack'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { renderRoutes } from 'react-router-config'
@@ -17,6 +16,7 @@ const serverRoutes = () => {
 
 if (ENV === 'development') {
   console.log('Development config')
+  const webpack = require('webpack')
   const webpackConfig = require('../../webpack.config')
   const webpackDevMiddleware = require('webpack-dev-middleware')
   const webpackHotMiddleware = require('webpack-hot-middleware')

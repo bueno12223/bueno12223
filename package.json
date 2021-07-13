@@ -4,7 +4,7 @@
     "description": "My own portfolio",
     "main": "src/server/index.js",
     "scripts": {
-        "dev": "nodemon src/server/index.js",
+        "dev": "nodemon src/server/server.js",
         "build": "webpack-cli --config webpack.config.js",
         "start": "node index.js",
         "serve:start": "node src/server/server.js",
@@ -25,7 +25,6 @@
         "asset-require-hook": "^1.2.0",
         "dotenv": "^9.0.2",
         "express": "^4.17.1",
-        "ignore-styles": "^5.0.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "react-router-config": "^5.1.1"
@@ -45,6 +44,7 @@
         "react-router-dom": "^5.2.0",
         "regenerator-runtime": "^0.13.7",
         "node-sass": "^6.0.0",
+        "ignore-styles": "^5.0.1",
         "sass-loader": "^11.1.0",
         "terser-webpack-plugin": "^5.1.2",
         "url-loader": "^4.1.1",
