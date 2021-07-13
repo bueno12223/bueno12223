@@ -6,7 +6,7 @@ import webpack from 'webpack'
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import { renderRoutes } from 'react-router-config'
-import { StaticRouter } from 'react-router-loader'
+import { StaticRouter } from 'react-router-dom'
 import getManifest from './getManifest'
 dotenv.config()
 const { ENV, PORT } = process.env

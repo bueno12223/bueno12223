@@ -11,7 +11,7 @@
         "analize": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
     },
     "engines": {
-        "node": "15.0.0"
+        "node": "15.14.0"
     },
     "keywords": [],
     "author": "",
