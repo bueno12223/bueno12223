@@ -3,11 +3,14 @@
     "version": "1.0.0",
     "description": "My own portfolio",
     "homepage": "http://bueno12223.github.io/bueno12223",
+    "main": "public/index.html",
     "scripts": {
         "dev": "webpack serve --mode development",
         "build": "webpack --mode production",
         "start": "webpack serve",
-        "analize": "webpack --json > stats.json && webpack-bundle-analyzer stats.json"
+        "analize": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "engines": {
         "node": "15.14.0"
