@@ -10,7 +10,7 @@
         "start": "webpack serve",
         "analize": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
     "engines": {
         "node": "15.14.0"
