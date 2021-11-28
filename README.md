@@ -2,7 +2,7 @@
 
 ## Who I am
 
-I am a self-motivated professional Front-End Developer with a strong work ethic and excellent interpersonal skills.💻😊
+I am a self-motivated professional Front-End and Back-End Developer with a strong work ethic and excellent interpersonal skills.💻😊
 I love working on new projects and being challenged; I also love working with new teams. I am very responsive to any change requests or messages
  I can build full websites; you can send me a message or an email at every moment 😁
 
@@ -12,7 +12,9 @@ I love working on new projects and being challenged; I also love working with ne
 - Server-side render
 - User authentication
 - Responsive design
-- Deploy on Google Cloud, Heroku or Firebase
+- Deploy on Google Cloud, AWS
+- Serverless and lambdas
+- React native aplications
 
 ## My frameworks
 
@@ -20,8 +22,8 @@ I love working on new projects and being challenged; I also love working with ne
 - CSS, Sass, and Bootstrap
 - JavaScript or TypeScript whit React.js
 - MongoDB and MySQL to the database
-- GraphQL and Express to create an API
-- To deploy y use Docker
+- GraphQL, Next.js and Express to create an API
+- Docker and continues integration
 
 I am comfortable if you are looking for a one-off job. I enjoy maintaining and growing relationships with clients. 😁
 Client satisfaction and quality software are my top priorities.
