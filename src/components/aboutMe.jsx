@@ -14,6 +14,11 @@ import Iboostrap from '../assets/icons/boostrap'
 import Igraphql from '../assets/icons/graphql'
 import Isql from '../assets/icons/sql'
 import Itypescript from '../assets/icons/typescript'
+import IPython from '../assets/icons/python'
+import IAWS from '../assets/icons/aws'
+import ITailwind from '../assets/icons/tailwind'
+import IVue from '../assets/icons/vue'
+import IServerless from '../assets/icons/serverless' 
 import Numbers from './numbers'
 import js from '../assets/images/js.png'
 import is from '../assets/images/is.png'
@@ -42,16 +47,21 @@ function aboutMe ({ me, certifications, extra, title, que }) {
           <li>Git <IGitH /></li>
           <li>HTML <IHtml /></li>
           <li>CSS <ICss /></li>
-          <li>Sass<ISass /></li>
-          <li>Webpack <Iwebpack /></li>
+          <li>Vue <IVue /></li>
+          <li>Python <IPython /></li>
           <li>GitHub<IGit /></li>
+          <li>AWS <IAWS /></li>
           <li>Node.js <Inode /></li>
-          <li>Express.js <Iexpress /></li>
+          <li>Webpack <Iwebpack /></li>
           <li>MongoDB <Imongo /></li>
-          <li>Bootstrap <Iboostrap /></li>
-          <li>GraphQL <Igraphql /></li>
           <li>SQL <Isql /></li>
           <li>TypeScript <Itypescript /></li>
+          <li>Serverless <IServerless /></li>
+          <li>Express.js <Iexpress /></li>
+          <li>Bootstrap <Iboostrap /></li>
+          <li>GraphQL <Igraphql /></li>
+          <li>Sass<ISass /></li>
+          <li>Tailwind <ITailwind /></li>
         </ul>
       </section>
 
@@ -65,7 +75,7 @@ function aboutMe ({ me, certifications, extra, title, que }) {
           <li>Backend and frontend integration</li>
           <li>Single page app</li>
           <li>APIs end-points</li>
-          <li>Digital marketing</li>
+          <li>Serverless functions</li>
           <li />
         </ul>
       </section>
