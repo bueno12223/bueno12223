@@ -1,7 +1,7 @@
 import React from 'react'
 import HomeBB from '../assets/images/homeBB.png'
 import HomeTV from '../assets/images/homeTV.png'
-import HomeCC from '../assets/images/homeCC.jpg'
+import HomeCC from '../assets/images/flaskHome.png'
 import loginRT from '../assets/images/loginRT.png'
 import lanBB from '../assets/images/land.jpeg'
 import homePG from '../assets/images/homePG.png'
@@ -32,9 +32,9 @@ function projects ({ title, lan }) {
         <section className='projects-card'>
           <img src={HomeCC} alt='' />
           <div className='projects-card-desc' style={{ top: '100%' }}>
-            <p>Cripto conf</p>
-            <a href='https://cript-conf.herokuapp.com/' target='_blank' rel='noopener noreferrer'>{lan ? 'Página': 'Page'}</a>
-            <a href='https://github.com/bueno12223/cripto-conf' target='_blank' rel='noopener noreferrer'>{lan ? 'Repositirio': 'Repository'}</a>
+            <p>Todo Flask</p>
+            <a href='https://todo-fask.ue.r.appspot.com/auth/singup' target='_blank' rel='noopener noreferrer'>{lan ? 'Página': 'Page'}</a>
+            <a href='https://github.com/bueno12223/flask' target='_blank' rel='noopener noreferrer'>{lan ? 'Repositirio': 'Repository'}</a>
           </div>
         </section>
         <section className='projects-card'>
