@@ -1,3 +1,4 @@
+
 import React from 'react'
 import IReact from '../assets/icons/react'
 import IJs from '../assets/icons/js'
@@ -34,7 +35,7 @@ function aboutMe ({ me, certifications, extra, title, que }) {
     <article className='about' id='0'>
       <h2 className='about-title'>{`<${title}>`}</h2>
       <section className='about-me'>
-        <Numbers number='25' description={me[0]} counter={5} />
+        <Numbers number='40' description={me[0]} counter={5} />
         <Numbers number='48' description={me[1]} counter={4} />
         <Numbers number='2605' description='commits' counter={5} />
         <Numbers number='40' description={me[2]} counter={4} />
