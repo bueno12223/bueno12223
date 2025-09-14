@@ -1,31 +1,22 @@
-# Jesus developer
+# Hi, I'm Jesus 👋
 
-## Who I am
+### Senior Software Engineer | Building Scalable Cloud & Mobile Solutions
 
-I am a self-motivated professional Front-End and Back-End Developer with a strong work ethic and excellent interpersonal skills.💻😊
-I love working on new projects and being challenged; I also love working with new teams. I am very responsive to any change requests or messages
- I can build full websites; you can send me a message or an email at every moment 😁
+I am a results-oriented Software Engineer with over 5 years of experience architecting and developing end-to-end digital products. I specialize in building high-performance backend systems using **Node.js** and **AWS**, and creating engaging cross-platform mobile experiences with **React Native**. I thrive in collaborative, fast-paced environments, transforming complex challenges into reliable, scalable, and maintainable software.
 
-## what can I do? 🤔
+### 🔧 My Tech Stack & Tools
 
-- Progressive web apps
-- Server-side render
-- User authentication
-- Responsive design
-- Deploy on Google Cloud, AWS
-- Serverless and lambdas
-- React native aplications
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | `React` `React Native` `Next.js` `TypeScript` `JavaScript` |
+| **Backend** | `Node.js` `NestJS` `Express.js` `.NET` `Serverless` |
+| **Databases** | `PostgreSQL` `MySQL` `DynamoDB` `MongoDB` `Redis` `CosmosDB` |
+| **Cloud & DevOps** | `AWS (Lambda, S3, API Gateway, CloudFormation)` `Azure` `Docker` `CI/CD` `GitHub Actions` |
 
-## My frameworks
+### 💻 What I Do
 
-- HMTL
-- CSS, Sass, and Bootstrap
-- JavaScript or TypeScript whit React.js
-- MongoDB and MySQL to the database
-- GraphQL, Next.js and Express to create an API
-- Docker and continues integration
+* **🚀 Building Scalable Backend Systems:** I design and implement microservices and serverless architectures focused on high performance and reliability. In previous roles, I've engineered systems that **improved batch processing speeds by 10x** and cut data retrieval times by 35%.
 
-I am comfortable if you are looking for a one-off job. I enjoy maintaining and growing relationships with clients. 😁
-Client satisfaction and quality software are my top priorities.
-If you are looking for help with an existing product or looking to build a new one, I am here to help!
-Thank you for your time. 👋👋👋
+* **📱 Crafting Cross-Platform Mobile Apps:** I develop feature-rich applications for iOS and Android using React Native, incorporating features like real-time GPS tracking, offline sync, and intuitive UI/UX. My work has led to a **20% increase in user activity** post-launch.
+
+* **☁️ End-to-End Cloud Deployment:** I leverage containerization with Docker and automated
